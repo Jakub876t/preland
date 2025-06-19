@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Poznaj Kobiety w Twojej Okolicy</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #f8cdda, #1d2b64);
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      max-width: 500px;
+      background: rgba(0,0,0,0.5);
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
+    img {
+      width: 100%;
+      border-radius: 16px;
+      margin-top: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 30px;
+      background-color: #e91e63;
+      color: #fff;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+      box-shadow: 0 4px 12px rgba(233, 30, 99, 0.5);
+    }
+    .btn:hover {
+      background-color: #ff4081;
+      box-shadow: 0 6px 16px rgba(255, 64, 129, 0.7);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Chcesz poznać samotne kobiety?</h1>
+    <p>Szukasz niezobowiązującej przygody w swojej okolicy?  
+    Sprawdź, kto czeka na Ciebie online!</p>
+    <img src="https://i.postimg.cc/rmtxRLNk/image.jpg" alt="Randki dla dorosłych" />
+    <a href="https://track.findmeets24.com/click?lp=1" class="btn">Zobacz profile</a>
+  </div>
+</body>
+</html>
